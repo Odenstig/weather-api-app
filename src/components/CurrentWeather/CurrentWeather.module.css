@@ -1,0 +1,46 @@
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 4rem 0 4rem 0; */
+    margin: 0rem 0 2rem 0;
+    border-radius: 20px;
+
+    background-color: #44232E;
+}
+
+.main{
+    padding: 2rem 0 2rem 0;
+    border-radius: 20px;
+}
+
+.desc{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.desc h3{
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main img{
+    height: auto;
+    width: 12rem;
+}
