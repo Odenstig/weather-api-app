@@ -1,0 +1,29 @@
+
+form{
+    margin: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: #42212E;
+    color: aliceblue;
+    font-size: large;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    box-shadow: 0px 6px 13px -7px #000000c5, 0px 12px 10px 0px rgba(25,0,54,0);
+}
+
+button:hover{
+    background-color: #5C3434;
+}
+
+input{
+    font-size: large;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-style: none;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 6px 13px -7px #000000c5, 0px 12px 10px 0px rgba(25,0,54,0);
+}

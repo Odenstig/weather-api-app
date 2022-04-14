@@ -4,10 +4,12 @@
     flex-direction: row;
     justify-content: center;
     /* padding: 4rem 0 4rem 0; */
-    margin: 0rem 0 2rem 0;
+    margin: 2rem;
+    padding: 2rem;
     border-radius: 20px;
 
     background-color: #44232E;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 12px 10px 0px rgba(25,0,54,0);
 }
 
 .main{
@@ -16,15 +18,19 @@
 }
 
 .desc{
-    margin-top: 5rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
     text-align: left;
     border-radius: 20px;
 }
 
+.desc p{
+    margin: 0;
+    margin-top: 1.8em;
+}
+
 .desc h3{
     padding: 0;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
