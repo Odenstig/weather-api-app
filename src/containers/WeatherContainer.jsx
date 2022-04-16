@@ -2,6 +2,7 @@ import React, { useEffect, useState, } from 'react';
 import CurrentWeather from '../components/CurrentWeather';
 import ForecastList from '../components/ForecastList';
 import SearchForm from '../components/SearchForm';
+import Header from '../components/Header';
 
 const WeatherContainer = () => {
     
@@ -59,11 +60,14 @@ const WeatherContainer = () => {
             </div>)
 
     return (
+        <>
         <div>
             <SearchForm callback={setQuery}/>
             <CurrentWeather currentWeather={currentWeather}/>
             <ForecastList weatherList={weatherList}/>
         </div>
+        </>
+        
     );
 }
 

@@ -23,12 +23,12 @@ const CurrentWeather = ({currentWeather}) => {
                 
             </div>
             <div className={styles.desc}>
-                <h3>Updated: {now}</h3>
+                <h2>{now}</h2>
                 <h3>Feels like: {Math.round(currentWeather.main.feels_like)}°C</h3>
                 <h3>Min Temperature: {Math.round(currentWeather.main.temp_min)}°C</h3>
                 <h3>Max Temperature: {Math.round(currentWeather.main.temp_max)}°C</h3>
                 <h3>Humidity: {currentWeather.main.humidity}%</h3>
-                <h3>{Math.round(currentWeather.wind.speed)} m/s</h3>
+                <h3>Wind: {Math.round(currentWeather.wind.speed)} m/s</h3>
             </div>
         </div>
     )
