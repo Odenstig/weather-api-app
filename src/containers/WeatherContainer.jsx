@@ -21,7 +21,7 @@ const WeatherContainer = () => {
         const fetchData = async () => {
             const res = await fetch(currentWeatherUrl);
             if(res.cod === "404" || res.cod === "400")
-                return(<h3>tset</h3>);
+                return(<h3>404</h3>);
             const data = await res.json();
     
             console.log(data);
