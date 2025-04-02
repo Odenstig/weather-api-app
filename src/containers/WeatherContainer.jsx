@@ -13,7 +13,7 @@ const WeatherContainer = () => {
     
     
     useEffect(() => {
-        let key = "7d47546ab568b328cb3068e767c993fe";
+        let key = "key goes here";
         let city = `${query}`
         let currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${key}`
         let forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?units=metric&q=${city}&appid=${key}`
